@@ -1,0 +1,157 @@
+.record .app-aside,
+.record .app-footer{
+	display: none;
+}
+.record .app-content{
+	  margin-left: 0px;
+}
+.record-tabs .tab-content{
+	min-height: 510px;
+}
+.record .panel-body,
+.record .panel {
+   padding: 0px; 
+   margin: 0;
+}
+.record .panel .panel-heading{
+	  padding-bottom: 11px;
+}
+.record .panel{
+	border-top: 0;
+	border-right: 0;
+}
+.record-nav span{
+	padding: 0 3px;
+}
+.nav-tabs > li.active > a{
+	border-top: 0;;
+}
+.nav-tabs > li:first-child > a{
+	border-left:1px solid #dee5e7 ;
+}
+.record .app-content-body{
+	padding-bottom: 0px;
+}
+.record-panel-left{
+	width: 30%;
+}
+.record-panel-right{
+	width: 70%;
+	overflow: auto;
+}
+.record-panel-left .panel-body{
+	width: 100%;
+	min-height: 454px;
+}
+.breadcrumb  .active,
+.breadcrumb  .active:hover{
+    color: #777;
+}
+.navbar-brand{
+	line-height: 47px;
+}
+.fc-day-grid-event .fc-time{
+	display: none;
+}
+.fc-day-grid-event:hover{
+	opacity: 0.7;
+}
+.padder-zero{
+	padding: 0;
+}
+.padder-zero.breadcrumb{
+	margin-bottom: 0;
+	background-color:transparent;
+}
+.padder-v-md{
+	padding-top: 5px;
+}
+.padder-v-ll{
+	padding-top: 30px;
+}
+.padder-v-lg{
+	padding-top: 22px;
+	width: 80px;
+	text-align: right;
+}
+.padder-v-lg .btn{
+    padding-right:25px ;
+    padding-bottom: 0;	
+}
+.text-green{
+	color: green;
+}
+.text-green-lt{
+	color:limegreen;
+}
+.text-blue{
+	color: blue;
+}
+.text-blue-dk{
+	color: darkblue;
+}
+.text-blue-dker{
+	color: midnightblue;
+}
+.app-content{
+	height: auto;
+}
+
+.war-info{
+	background-color: #23b7e5;
+}
+.war-dark{
+	background-color: #000000;
+}
+.war-gray{
+	background-color: #C0C0C0;
+}
+.war-cold-gray{
+	background-color: #808A87;
+}
+.war-stone-gray{
+	background-color: #708069;
+}
+.war-warm-gray{
+	background-color: #808069;
+}
+/*白色*/
+.war-white{
+	background-color: #FFFFFF;
+}
+/*古董白*/
+.war-antique-white{
+	background-color: #FAEBD7;
+}
+/*天蓝色*/
+.war-sky-blue{
+	background-color: #F0FFFF;
+}
+/*钴色*/
+.war-cobalt{
+	background-color: #3D59AB;
+}
+.war-jackie-blue{
+	background-color: #0B1746;
+}
+.war-deep-blue{
+	background-color: #191970;
+}
+.war-peacock-blue{
+	background-color: #33A1C9;
+}
+.war-Jade{
+	background-color: #00C78C;
+}
+.war-blue{
+	background-color: #0000FF;
+}
+.w-100{
+	width: 100%;
+}
+.w-10{
+	width: 10%;
+}
+.w-15{
+	width: 15%;
+}
