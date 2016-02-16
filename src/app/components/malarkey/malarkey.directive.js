@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('gulpAnglar')
+    .module('mlc')
     .directive('acmeMalarkey', acmeMalarkey);
 
   /** @ngInject */
