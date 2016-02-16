@@ -7,7 +7,7 @@
 (function () {
    angular.module('mlc').controller('commonCtrl',common);
 
-    function common($scope,$http){
+    function common($scope,$http,PROJECT_INFO){
 
         $scope.dataArr = ["电子病历1", "电子病历2"];
 
@@ -49,5 +49,11 @@
             var message = "Log-in Account：" + userInfo["userinfo"]["userName"] + "/" + userInfo["userinfo"]["realName"] + "/" + userInfo["userinfo"]["hname"] + "[Work ID: 3011]";
             $scope.navMessage = message;
         }
+
+        $http.get(PROJECT_INFO.ASIDE_URL).success(function(rep){
+            $scope.task = rep;
+        }).error(function(){
+
+        })
     }
 })()

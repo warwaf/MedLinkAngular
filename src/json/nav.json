@@ -1,0 +1,108 @@
+[
+	{
+		"itemId": "01",
+		"itemName": "工作任务",
+		"itemType": "1",
+		"itemIcon": "glyphicon glyphicon-stats",
+		"itemIconColor": "text-primary-dker",
+		"subItem": [
+			{
+			   "itemName": "挂号",
+			    "count": "10",
+				"countColor": "bg-warning",
+				"url": ""
+			}, {
+				"itemId": "0101",
+				"itemName": "挂号",
+				"itemType": "2",
+				"count": "10",
+				"countColor": "bg-warning",
+				"url": "layout.registration({type: 1, role: 2})"
+			}, {
+				"itemId": "0102",
+				"itemName": "预约",
+				"itemType": "2",
+				"count": "5",
+				"countColor": "bg-danger",
+				"url": "layout.registration1"
+			}, {
+				"itemId": "0103",
+				"itemName": "护理类"
+			}, {
+				"itemId": "0104",
+				"itemName": "诊前检查",
+				"itemType": "2",
+				"count": "88",
+				"countColor": "bg-success",
+				"url": "app.reception"
+			}, {
+				"itemId": "0104",
+				"itemName": "护理处置",
+				"itemType": "2",
+				"count": "88",
+				"countColor": "bg-success",
+				"url": "app.calendar"
+			}, {
+				"itemId": "0104",
+				"itemName": "诊后随访",
+				"itemType": "2",
+				"count": "88",
+				"countColor": "bg-success",
+				"url": "app.calendar"
+			}, {
+				"itemId": "0104",
+				"itemName": "医生工作"
+			}, {
+				"itemId": "0104",
+				"itemName": "门诊",
+				"itemType": "2",
+				"count": "88",
+				"countColor": "bg-success",
+				"url": "app.calendar"
+			}, {
+				"itemId": "0104",
+				"itemName": "会诊",
+				"itemType": "2",
+				"count": "88",
+				"countColor": "bg-success",
+				"url": "app.calendar"
+			}, {
+				"itemId": "0104",
+				"itemName": "DR影像阅片(全科I级)",
+				"itemType": "2",
+				"count": "88",
+				"countColor": "bg-success",
+				"url": "app.calendar"
+			}, {
+				"itemId": "0104",
+				"itemName": "DR影像阅片(全科II级)",
+				"itemType": "2",
+				"url": "app.calendar"
+			}, {
+				"itemId": "0104",
+				"itemName": "质控确认(全科I级)",
+				"itemType": "2",				
+				"url": "app.calendar"
+			}
+		]
+	}, {
+		"itemId": "02",
+		"itemName": "管理与统计",
+		"itemType": "1",
+		"itemIcon": "glyphicon glyphicon-th-large",
+		"itemIconColor": " text-success",
+		"subItem": [
+			{
+				"itemId": "0201",
+				"itemName": "Scheduling",
+				"itemType": "3",
+				"url": "app.usermanagement"
+			}, {
+				"itemId": "0202",
+				"itemName": "Statistics",
+				"itemType": "3",
+				"url": "app.Documents"
+			}
+		]
+	}
+]

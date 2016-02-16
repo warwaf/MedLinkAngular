@@ -1,0 +1,32 @@
+<div class="aside-wrap">
+    <!-- if you want to use a custom scroll when aside fixed, use the slimScroll
+      <div class="navi-wrap" ui-jq="slimScroll" ui-options="{height:'100%', size:'8px'}">
+    -->
+    <div class="navi-wrap">
+        <!-- nav -->
+        <nav ui-nav class="navi" >
+            <ul class="nav">
+                <li ng-repeat="obj in data" ng-class="{'active':$index==0}">
+                    <a href class="auto">
+                        <span class="pull-right text-muted">
+                             <i class="fa fa-fw fa-angle-right text"></i>
+                             <i class="fa fa-fw fa-angle-down text-active"></i>
+                        </span>
+                        <i class="icon text-primary-dker" ng-class='obj.itemIcon'></i>
+                        <span class="font-bold" ng-bind='obj.itemName'></span>
+                    </a>
+                    <ul class="nav nav-sub dk">
+                        <li ui-sref-active="active" ng-repeat="item in obj.subItem" ng-switch='item.url==undefined||item.url == ""' ng-class='{true:"hidden-folded padder m-t m-b-sm text-muted text-xs"}[item.url==undefined||item.url == ""]'>
+                            <a ng-switch-when='false' ui-sref="{{item.url}}">
+                                <b class="badge pull-right" ng-class='item.countColor' ng-bind='item.count'></b>
+                                <span ng-bind="item.itemName"></span>
+                            </a>
+                            <span ng-switch-when='true' ng-bind="item.itemName"></span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- nav -->
+    </div>
+</div>
