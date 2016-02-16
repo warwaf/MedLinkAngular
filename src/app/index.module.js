@@ -1,7 +1,4 @@
 (function() {
   'use strict';
-
-  angular
-    .module('gulpAnglar', ['ngAnimate', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr']);
-
+  angular.module('mlc', ['ngAnimate', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr']);
 })();

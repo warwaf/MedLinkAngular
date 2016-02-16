@@ -1,0 +1,35 @@
+<!-- navbar header -->
+<div class="navbar-header  {{app.settings.navbarHeaderColor}}">
+    <a href="#/" class="navbar-brand text-lt">
+        <span class="hidden-folded m-l-lg"><b class="text-blue-dker">Med</b><b class="text-green-lt">Link</b><small> Professional</small></span>
+    </a>
+    <!-- / brand -->
+</div>
+<!-- / navbar header -->
+<!-- navbar collapse -->
+<div class="collapse pos-rlt navbar-collapse box-shadow {{app.settings.navbarCollapseColor}}" >
+    <div class="nav navbar-nav navbar-left">
+        <div class="padder-v-xs">
+            {{navDate}}
+        </div>
+        <div class="">
+            {{navMessage}}
+        </div>
+    </div>
+    <div class="nav navbar-nav navbar-right">
+        <div class="navbar-left ">
+            <breadcrumb war="dataArr"></breadcrumb>
+            <!--<ul class="breadcrumb  padder-zero">
+                <li><a href><i class="fa fa-home"></i>首页</a></li>
+                <li class="active">病人列表</li>-->
+            <!--<li class="active">Components</li>-->
+            <!--</ul>-->
+        </div>
+        <div class="navbar-right padder-v-sm ">
+            <div class="btn btn-toolbar" ng-click='buttonClick($event)'>
+                {{app.NavBtn}}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / navbar collapse -->

@@ -1,0 +1,4 @@
+<ul class="breadcrumb  padder-zero">
+    <li><a href><i class="fa fa-home"></i>首页</a></li>
+    <li ng-repeat="item in war" ><a ng-bind="item" ng-class="{'active': $index == war.length-1}"></a></li>
+</ul>
